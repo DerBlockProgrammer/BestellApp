@@ -1,0 +1,43 @@
+
+
+    
+.bilder1 img{
+   height: 200px;
+  
+}
+
+header img{
+    height: 20px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+
+/* //Wrapper// */
+#content_wrapper {
+    display: flex; /* Flexbox-Layout für nebeneinander liegende Elemente */
+    gap: 0; /* Kein Abstand zwischen den Elementen */
+    width: 100%;
+    height: 100%; /* Volle Höhe des Viewports */
+   
+}
+.basket_wrapper {
+    
+    width: 30%; /* Warenkorb nimmt 30% der Breite ein */
+    position: relative;
+   
+}
+#basket {
+    position: sticky;
+    top: 0; /* Sticky bleibt oben */
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 2px solid #ccc;
+    height: 100vh; /* Volle Höhe für den Warenkorb */
+    overflow-y: auto; /* Falls der Warenkorb scrollbar wird */
+    
+}
+#content_wrapper img{
+    height: 50px;
+    width: 100%;
+    object-fit: cover;
+}
